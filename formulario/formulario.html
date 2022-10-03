@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Formulario</title>
+</head>
+
+<body style="background-color: rgb(182, 176, 176);">
+    <form action="procesarformulario.php" method="get">
+        <fieldset>
+            <legend>Datos personales</legend>
+        <label for="nombre">Nombre: <input type="text" name="nombre" id="nombre" size="30" required>
+        </label>
+        <p>Apellidos: <input type="text" name="apellidos" size="30" placeholder="Los dos apellidos" required></p>
+        <!-- El atributo place holder, es el texto que sale en gris dentro de nuestro recuadro-->
+        <p>Email: <input type="email" name="email" size="30" placeholder="Tu correo electrónico" required></p>
+        <p>Año de nacimiento: <input type="number" name="nacido" min="1900" max="2022" required></p>
+        <p>Lugar de nacimiento:
+            <select name="option">
+                <!-- Opt group para agrupar las opciones-->
+                <option>.</option>
+                <optgroup label="Cataluña">
+                    <option value="bcn">Barcelona</option>
+                </optgroup>
+                <optgroup label="Comunidad de Madrid">
+                    <option value="madrd">Madrid</option>
+                </optgroup>
+                <optgroup label="Comunidad autónoma de Aragón">
+                    <option value="zaragoza">Zaragoza</option>
+                </optgroup>
+                <optgroup label="Otro sitio">
+                    <option value="otro">Otro</option>
+                </optgroup>
+            </select>
+
+        </p>
+        <p>Foto del DNI: <input type="file" name="fotodni" required></p>
+        <p>Sexo:
+            <!-- Si es un type radio, el name tiene que ser el mismo -->
+            <input type="radio" name="hm" value="h"> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+            <input type="radio" name="hm" value="o"> Otro
+        </p>
+        </fieldset>
+        <p> Deportes:
+            <input type="checkbox" name="futbol">F&uacute;tbol
+            <input type="checkbox" name="baloncesto">Baloncesto
+            <input type="checkbox" name="boxeo">Boxeo
+            <input type="checkbox" name="otros">Otros
+            <input type="checkbox" name="ver_la_tele">Ver la tele
+        </p>
+        <p>
+            ¿Con ganas de enviar este formulario?
+            <input type="radio" name="yes" value="y" checked>Si
+        </p>
+        <p>Lugares visitados:</p>
+        <p>
+            <!-- Con los corchetes [] y la opción "multiple", hacemos un formulario el cual 
+                puede seleccionar mas de una opción-->
+            <select name="lugaresvisitados[]" multiple>
+                <option>.</option>
+                <option value="francia">Francia</option>
+                <option value="italia">Italia</option>
+                <option value="portugal">Portugal</option>
+                <option value="otros">Otros</option>
+            </select>
+        </p>
+        <p>
+            Comentario:
+        </p>
+        <p>
+            <textarea name="comentario" rows="5" cols="20" placeholder="Algo adicional que quieras añadir"></textarea>
+        </p>
+        <button>
+           <img src="./img/ok-1976099__340_(2).png" alt="tic.png" width="25" height="25">Boton de un tic
+        <!-- Si ponemos button en vez de input type=button, podemos añadir imagenes -->
+        </button>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+
+    </form>
+</body>
+
+</html>
