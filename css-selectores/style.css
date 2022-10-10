@@ -2,11 +2,14 @@
 .parrafosimpares{
     color:rgb(65, 42, 165); 
 }
-.parrafo2{
+p.parrafo2{
     color:rgb(240, 17, 17)
 }
-.parrafo4{
+#parrafo4{
     color:darkgoldenrod
+}
+span.impares{
+    color: crimson;
 }
 span{
  background-color: rgb(0, 255, 234);
