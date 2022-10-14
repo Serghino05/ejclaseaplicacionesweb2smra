@@ -1,6 +1,12 @@
 ul{
     list-style-type:square;
+    background-color: lightblue;
 }
 ol{
     list-style-image:url("img/carita.png");
+    list-style-position:inside;
+}
+dd {
+    list-style-position: inside;
+    background-color: rgb(176, 174, 177);
 }
