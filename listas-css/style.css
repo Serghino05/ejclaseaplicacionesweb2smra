@@ -8,5 +8,20 @@ ol{
 }
 dd {
     list-style-position: inside;
-    background-color: rgb(176, 174, 177);
+    background-color: rgb(176, 174, 177); 
+}
+dt.dt1{
+    background-color: crimson;
+    border-color: rgb(0, 0, 0);
+    border-style:dotted;
+    border-width: 2px;
+    padding: 10px;
+    width:30%;
+}
+dt.dt2{
+    background-color:rgb(8, 253, 8);
+    border-color: black;
+    border-style:dashed;
+    border-width: 2px;
+    width: 70%;
 }
