@@ -1,0 +1,82 @@
+p.p1 {
+    border-color: red black;
+    border-style:outset;
+    border-width: 10px;
+    padding: 20px;
+    width: 50%;
+}
+p.p2{
+    border-color:blue purple;
+    border-style:dashed dotted;
+    border-width: 10px;
+    padding: 10px;
+    width: 50%;
+}
+p.p3{
+    border-top:black 10px dotted;
+    border-bottom: red 10px dashed;
+    border-left:purple 10px outset;
+    padding: 10px;
+    width: 50%;
+}
+p.p4{
+    padding:10px;
+    border-style:solid;
+    border-color:black;
+    border-width:6px;
+    border-radius: 20px;
+
+}
+p.p5{
+    padding:10px;
+    border-style:solid;
+    border-color:black red;
+    border-width:6px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+p.p6{
+        padding:10px;
+        border-style:double;
+        border-color:blue cyan;
+        border-width:6px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    
+
+}
+p.p7{
+    border: black 50px solid;
+    border-image-source: url("img/balon.png");
+    text-align: justify;
+    
+}
+p.p8{
+    border:black 30px solid;
+    border-image-source:url("img/borde.png");
+    border-image-slice: 30;
+    padding: 10px;
+    text-align: justify;
+}
+p.p9{
+    border:black 30px solid;
+    border-image-source:url("img/borde.png");
+    border-image-slice: 30 fill;
+    padding: 10px;
+    text-align: justify;
+    color:white
+}
+table.table1{
+    border-collapse: collapse;
+    border-color:rgb(235, 87, 87);
+}
+td.sinborde {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border:none;
+}
+td.ocultoborde {
+    background-color: rgb(0, 108, 180);
+    color: aliceblue;
+    border:hidden;
+}
