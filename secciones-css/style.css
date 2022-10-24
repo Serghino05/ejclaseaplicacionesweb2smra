@@ -17,3 +17,14 @@ li.menu{
  border: 3px blue solid;
  padding:10px;
 }
+div.logo{
+    display: inline;
+    width:30%;
+}
+div.li{
+    display:inline;
+    width: 60%;
+}
+ul {
+    display: inline;
+}
