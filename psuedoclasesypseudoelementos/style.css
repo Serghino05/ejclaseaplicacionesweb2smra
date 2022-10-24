@@ -1,0 +1,26 @@
+/* Autor: Sergio Pardo Gázquez */
+header.ola{
+    border: 10px black solid;
+    width: 50%;
+}
+/* se refiere al primer elemento p */
+header.ola :first-child{
+    color:green
+}
+/*link sin visitar*/
+a:link{
+    background-color: aqua;
+}
+/*link visitado*/
+a:visited{
+    background-color: red;
+}
+/* si pasas el ratón por encima*/
+a:hover{
+    background-color:rgb(99, 91, 91) ;
+    border:20px rgb(0, 0, 0) solid;
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
+    font-style: oblique;
+}
