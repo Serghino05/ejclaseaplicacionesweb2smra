@@ -1,0 +1,16 @@
+div.a1{
+    border:5px black solid;
+    position:sticky
+}
+div.a2{
+    border-width: 5px;
+    border-style: dashed;
+    border-color: red black;
+    height: 209%; 
+    width: 99%;
+    position: relative;
+}
+div.a3{
+    border: 5px black solid;
+    position:sticky
+}
