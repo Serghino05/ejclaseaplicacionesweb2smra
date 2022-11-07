@@ -20,7 +20,8 @@ div.menu{
 }
 div.menu2{
     position: absolute;
-    top:22%
+    top:24%;
+    text-align: center;
 }
 img.profile{
     width: 90%;
