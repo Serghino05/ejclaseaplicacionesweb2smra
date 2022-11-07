@@ -1,0 +1,30 @@
+body {
+    background-color: lightgrey;
+}
+div.principal{
+    background-color: green;
+    position:absolute;
+    width:70%;
+    height: 70%;
+    margin-left: 20%;
+    top: 10%
+}
+div.menu{
+    border:2px black solid;
+    position: absolute;
+    height: 40%;
+    width: 8%;
+    top:28%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div.menu2{
+    position: absolute;
+    top:22%
+}
+img.profile{
+    width: 90%;
+    position: absolute;
+    top: 1%;
+    left:5% ;
+}
