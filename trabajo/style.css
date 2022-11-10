@@ -29,3 +29,34 @@ img.profile{
     top: 1%;
     left:5% ;
 }
+ul.ul1{
+    background-color: grey;
+    display: inline-block;
+    width: 10%;
+    text-align: left;
+    position: absolute;
+}
+ul.ul2{
+    background-color: grey;
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    position: absolute;
+    left: 17%;
+}
+ul.ul3{
+    background-color: grey;
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    position: absolute;
+    left: 44%;
+}
+ul.ul4{
+    background-color: grey;
+    display: inline-block;
+    width: 21.8%;
+    text-align: left;
+    position: absolute;
+    left: 71%;
+}
