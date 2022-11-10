@@ -1,62 +1,155 @@
 body {
     background-color: lightgrey;
 }
-div.principal{
-    background-color: green;
+div.imagen{
+    background-color: rgb(112, 233, 112);
     position:absolute;
-    width:70%;
+    width:79%;
     height: 70%;
-    margin-left: 20%;
-    top: 10%
+    margin-left: 10%;
+    top: 18.9%;
 }
 div.menu{
     border:2px black solid;
     position: absolute;
     height: 40%;
-    width: 8%;
-    top:28%;
+    width: 4%;
+    top:26%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 div.menu2{
     position: absolute;
-    top:24%;
+    top:23%;
     text-align: center;
 }
+
 img.profile{
     width: 90%;
     position: absolute;
     top: 1%;
     left:5% ;
 }
+div.imagen1{
+    border:3px black solid;
+    position: absolute;
+    height: 35%;
+    width: 20%;
+    top:26%;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    transform: rotate(-37deg);
+    left:20%;
+    top:15%;
+}
+img.img10{
+    width: 90%;
+    position: absolute;
+    top: 1%;
+    left:5% ;
+}
+div.imagen2{
+    border:3px black solid;
+    position: absolute;
+    height: 35%;
+    width: 20%;
+    top:26%;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    left:30%;
+    top:20%;
+    transform: rotate(40deg);
+}
+img.img20{
+    width: 90%;
+    position: absolute;
+    top: 1%;
+    left:5% ;
+}
+div.imagen3{
+    border:3px black solid;
+    position: absolute;
+    height: 35%;
+    width: 20%;
+    top:26%;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    left:39%;
+    transform: rotate(-17deg);
+}
+img.img30{
+    width: 90%;
+    position: absolute;
+    top: 1%;
+    left:5% ;
+}
+div.imagen4{
+    border:3px black solid;
+    position: absolute;
+    height: 35%;
+    width: 20%;
+    top:30%;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    left:48%;
+    transform: rotate(17deg);
+}
+img.img40{
+    width: 80%;
+    position: absolute;
+    top: 1%;
+    left:10% ;
+}
+ul{
+    top:0px;
+    background-color:rgb(71, 68, 68);
+    margin-left: 10%;
+    top: 10%;
+    padding: 0%;
+    height: 7%;
+    color: white;
+    font-weight:lighter;
+}
 ul.ul1{
-    background-color: grey;
     display: inline-block;
-    width: 10%;
+    width: 20%;
     text-align: left;
     position: absolute;
+    font-size: large;
 }
 ul.ul2{
-    background-color: grey;
     display: inline-block;
     width: 20%;
     text-align: left;
     position: absolute;
     left: 17%;
+    font-size: large
 }
 ul.ul3{
-    background-color: grey;
     display: inline-block;
     width: 20%;
     text-align: left;
     position: absolute;
-    left: 44%;
+    left: 37%;
+    font-size: large
 }
 ul.ul4{
-    background-color: grey;
     display: inline-block;
-    width: 21.8%;
+    width: 23.45%;
     text-align: left;
     position: absolute;
-    left: 71%;
+    left: 56%;
+    font-size: large
 }
